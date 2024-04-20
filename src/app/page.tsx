@@ -78,7 +78,7 @@ export default function Home() {
           bg === "red" ? "bg-red-400" : "bg-green-400"
         } flex flex-col items-center justify-center`}
       >
-        <h1 className="text-center scroll-m-20 text-2xl md:text-4xl font-extrabold tracking-tight lg:text-5xl text-red-50">
+        <h1 className="mx-5 md:m-0 text-center scroll-m-20 text-2xl md:text-4xl font-extrabold tracking-tight lg:text-5xl text-red-50">
           Click anywhere when the color turns green
         </h1>
         <h2 className="text-center text-green-50 scroll-m-20 mt-2 pb-2 text-xl md:text-3xl font-semibold tracking-tight first:mt-0">
